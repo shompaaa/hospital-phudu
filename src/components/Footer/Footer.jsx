@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../Header/Navbar";
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 import logo from "../../assets/images/logo.png";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -8,13 +8,22 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
 const Footer = () => {
+     const links = (
+    <>
+      <NavLink to='/' className='mr-3'>Home</NavLink>
+      <NavLink to='/bookings' className='mr-3'>My Bookings</NavLink>
+      <NavLink to='/blogs' className='mr-3'>Blogs</NavLink>
+      <NavLink to='/contact' className='mr-3'>Contact Us</NavLink>
+    </>
+  );
   return (
     <footer className="bg-white">
       <div className="w-2/3 mx-auto py-25">
-        <div className="flex gap-3 justify-center mb-8">
+        <div className="flex gap-3 justify-center">
           <img width={35} src={logo} alt="Logo" />
           <h2 className="text-3xl font-extrabold">Phudu</h2>
         </div>
+        <div className="text-center my-7">{links}</div>
         <div className="border-t-2 border-gray-200"></div>
         <div className="my-8"></div>
         <div className="flex gap-4 justify-center mt-8">
@@ -31,6 +40,7 @@ const Footer = () => {
             <FaGithub size={25} />
           </a>
         </div>
+        
       </div>
     </footer>
   );

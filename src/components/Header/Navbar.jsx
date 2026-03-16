@@ -4,7 +4,7 @@ import logo from '../../assets/images/logo.png'
 
 const Navbar = () => {
   // Navbar Link:
-  const links = (
+   const links = (
     <>
       <NavLink to='/' className='mr-3'>Home</NavLink>
       <NavLink to='/bookings' className='mr-3'>My Bookings</NavLink>
