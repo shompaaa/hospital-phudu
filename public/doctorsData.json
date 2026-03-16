@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "image": "../src/assets/images/doctor-sample.png",
+    "name": "Dr. Rahman Ahmed",
+    "education": "MBBS, FCPS (Medicine)",
+    "speciality": "Cardiologist",
+    "experience": "12+ Years Experience",
+    "registrationNumber": "BMDC-45872",
+    "availability": "Sun - Thu, 5:00 PM - 9:00 PM",
+    "isAvailable": true
+  },
+  {
+    "id": 2,
+    "image": "../src/assets/images/doctor-sample.png",
+    "name": "Dr. Sharmeen Akter",
+    "education": "MBBS, MD (Gynecology)",
+    "speciality": "Gynecologist",
+    "experience": "10+ Years Experience",
+    "registrationNumber": "BMDC-56231",
+    "availability": "Sat - Wed, 4:00 PM - 8:00 PM",
+    "isAvailable": true
+  },
+  {
+    "id": 3,
+    "image": "../src/assets/images/doctor-sample.png",
+    "name": "Dr. Tanvir Hossain",
+    "education": "MBBS, MS (Orthopedics)",
+    "speciality": "Orthopedic Surgeon",
+    "experience": "15+ Years Experience",
+    "registrationNumber": "BMDC-47895",
+    "availability": "Sun - Thu, 6:00 PM - 10:00 PM",
+    "isAvailable": false
+  },
+  {
+    "id": 4,
+    "image": "../src/assets/images/doctor-sample.png",
+    "name": "Dr. Nusrat Jahan",
+    "education": "MBBS, FCPS (Pediatrics)",
+    "speciality": "Child Specialist",
+    "experience": "8+ Years Experience",
+    "registrationNumber": "BMDC-69321",
+    "availability": "Sun - Wed, 3:00 PM - 7:00 PM",
+    "isAvailable": true
+  },
+  {
+    "id": 5,
+    "image": "../src/assets/images/doctor-sample.png",
+    "name": "Dr. Mahmudul Hasan",
+    "education": "MBBS, MD (Neurology)",
+    "speciality": "Neurologist",
+    "experience": "11+ Years Experience",
+    "registrationNumber": "BMDC-51234",
+    "availability": "Mon - Thu, 5:00 PM - 9:00 PM",
+    "isAvailable": true
+  },
+  {
+    "id": 6,
+    "image": "../src/assets/images/doctor-sample.png",
+    "name": "Dr. Farzana Rahman",
+    "education": "MBBS, FCPS (Dermatology)",
+    "speciality": "Dermatologist",
+    "experience": "9+ Years Experience",
+    "registrationNumber": "BMDC-48721",
+    "availability": "Sat - Tue, 4:30 PM - 8:30 PM",
+    "isAvailable": false
+  },
+  {
+    "id": 7,
+    "image": "../src/assets/images/doctor-sample.png",
+    "name": "Dr. Arif Chowdhury",
+    "education": "MBBS, MS (ENT)",
+    "speciality": "ENT Specialist",
+    "experience": "13+ Years Experience",
+    "registrationNumber": "BMDC-57412",
+    "availability": "Sun - Thu, 6:00 PM - 9:00 PM",
+    "isAvailable": true
+  },
+  {
+    "id": 8,
+    "image": "../src/assets/images/doctor-sample.png",
+    "name": "Dr. Sadia Karim",
+    "education": "MBBS, FCPS (Ophthalmology)",
+    "speciality": "Eye Specialist",
+    "experience": "7+ Years Experience",
+    "registrationNumber": "BMDC-63981",
+    "availability": "Sat - Wed, 3:30 PM - 7:30 PM",
+    "isAvailable": true
+  },
+  {
+    "id": 9,
+    "image": "../src/assets/images/doctor-sample.png",
+    "name": "Dr. Imran Kabir",
+    "education": "MBBS, MD (Endocrinology)",
+    "speciality": "Diabetes Specialist",
+    "experience": "14+ Years Experience",
+    "registrationNumber": "BMDC-52167",
+    "availability": "Sun - Thu, 5:00 PM - 8:00 PM",
+    "isAvailable": false
+  },
+  {
+    "id": 10,
+    "image": "../src/assets/images/doctor-sample.png",
+    "name": "Dr. Tania Sultana",
+    "education": "MBBS, FCPS (Psychiatry)",
+    "speciality": "Psychiatrist",
+    "experience": "6+ Years Experience",
+    "registrationNumber": "BMDC-60452",
+    "availability": "Mon - Thu, 4:00 PM - 7:00 PM",
+    "isAvailable": true
+  },
+  {
+    "id": 11,
+    "image": "../src/assets/images/doctor-sample.png",
+    "name": "Dr. Saiful Islam",
+    "education": "MBBS, MS (General Surgery)",
+    "speciality": "General Surgeon",
+    "experience": "16+ Years Experience",
+    "registrationNumber": "BMDC-49873",
+    "availability": "Sun - Wed, 6:00 PM - 9:30 PM",
+    "isAvailable": true
+  },
+  {
+    "id": 12,
+    "image": "../src/assets/images/doctor-sample.png",
+    "name": "Dr. Laila Hossain",
+    "education": "MBBS, FCPS (Radiology)",
+    "speciality": "Radiologist",
+    "experience": "10+ Years Experience",
+    "registrationNumber": "BMDC-58764",
+    "availability": "Sat - Tue, 5:00 PM - 8:00 PM",
+    "isAvailable": false
+  }
+]
