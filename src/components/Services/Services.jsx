@@ -21,7 +21,7 @@ const Services = () => {
 
       {/* Services CountUp  */}
       <div className="flex gap-6 justify-center">
-        <div className="bg-white px-12 py-10 rounded-2xl w-55">
+        <div className="bg-white px-10 py-8 rounded-2xl w-55">
           <img src={doctors} alt="" />
           <CountUp className="text-4xl font-bold" end={199} duration={5} />{" "}
           <span className="text-4xl font-bold">+</span>
