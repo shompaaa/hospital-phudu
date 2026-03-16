@@ -11,7 +11,7 @@ const visibleDoctors= showAll ? doctors : doctors.slice(0,6);
 
   return (
     // Title & Description
-    <div className="mx-40 mb-20">
+    <div className="lg:mx-40 mb-20">
       <div className="w-2/3 mx-auto text-center">
         <h2 className="text-4xl font-bold">Our Best Doctors</h2>
         <p className="text-gray-400 mt-4 mb-8">

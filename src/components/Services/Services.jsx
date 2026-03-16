@@ -20,20 +20,20 @@ const Services = () => {
       </div>
 
       {/* Services CountUp  */}
-      <div className="flex gap-6 justify-center">
-        <div className="bg-white px-10 py-8 rounded-2xl w-55">
+      <div className="flex flex-col md:flex-row gap-4 items-center justify-center mx-2">
+        <div className="bg-white px-6 py-4 lg:px-10 lg:py-8 rounded-2xl w-55">
           <img src={doctors} alt="" />
           <CountUp className="text-4xl font-bold" end={199} duration={5} />{" "}
           <span className="text-4xl font-bold">+</span>
           <p className="text-xl text-gray-400 font-semibold">Total Doctors</p>
         </div>
-        <div className="bg-white px-12 py-10 rounded-2xl w-55">
+        <div className="bg-white px-6 py-4 lg:px-10 lg:py-8 rounded-2xl w-55">
           <img src={review} alt="" />
           <CountUp className="text-4xl font-bold" end={467} duration={5} />{" "}
           <span className="text-4xl font-bold">+</span>
           <p className="text-xl text-gray-400 font-semibold">Total Reviews</p>
         </div>
-        <div className="bg-white px-12 py-10 rounded-2xl w-55">
+        <div className="bg-white px-6 py-4 lg:px-10 lg:py-8 rounded-2xl w-55">
           <img src={patients} alt="" />
           <CountUp
             className="text-4xl font-bold"
@@ -43,7 +43,7 @@ const Services = () => {
           <span className="text-4xl font-bold">+</span>
           <p className="text-xl text-gray-400 font-semibold">Patients</p>
         </div>
-        <div className="bg-white px-12 py-10 rounded-2xl w-55">
+        <div className="bg-white px-6 py-4 lg:px-10 lg:py-8 rounded-2xl w-55">
           <img src={stuffs} alt="" />
           <CountUp className="text-4xl font-bold" end={300} duration={5} />{" "}
           <span className="text-4xl font-bold">+</span>

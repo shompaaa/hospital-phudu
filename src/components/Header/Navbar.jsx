@@ -13,7 +13,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-gray-100 px-30">
+    <div className="navbar bg-gray-100 lg:px-30">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -37,18 +37,19 @@ const Navbar = () => {
             tabIndex="-1"
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
+            {links}
           </ul>
         </div>
         <div className="flex gap-3">
             <img width={35} src={logo} alt="Logo" />
-            <h2 className="text-3xl font-extrabold">Phudu</h2>
+            <h2 className="text-xl lg:text-3xl font-extrabold">Phudu</h2>
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <a className="bg-[#176AE5] px-5 py-2 rounded-2xl text-white">Emergency</a>
+        <a className="bg-[#176AE5] px-3 lg:px-5 py-1 lg:py-2 rounded-2xl text-white">Emergency</a>
       </div>
     </div>
   );

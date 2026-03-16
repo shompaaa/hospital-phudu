@@ -12,7 +12,7 @@ const Doctor = ({ doctor }) => {
   } = doctor;
   return (
     
-      <div className="card bg-white w-96 p-8 mb-12">
+      <div className="card bg-white p-8 mb-12">
         <figure>
           <img className="w-full h-62" src={image} alt="Doctor" />
         </figure>
@@ -35,6 +35,7 @@ const Doctor = ({ doctor }) => {
           </button>
         </div>
       </div>
+
   );
 };
 
