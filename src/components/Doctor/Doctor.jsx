@@ -1,8 +1,10 @@
 import React from "react";
 import { AiOutlineTrademark } from "react-icons/ai";
+import { Link } from "react-router";
 
 const Doctor = ({ doctor }) => {
   const {
+    id,
     image,
     name,
     education,
@@ -30,9 +32,11 @@ const Doctor = ({ doctor }) => {
             <AiOutlineTrademark />
             <p>{registrationNumber}</p>
           </div>
+         <Link to={`doctorDetails/${id}`}>
           <button className="btn btn-wide bg-transparent rounded-3xl border-blue-600 text-blue-600">
             View Details
           </button>
+         </Link>
         </div>
       </div>
 
